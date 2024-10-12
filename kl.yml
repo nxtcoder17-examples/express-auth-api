@@ -1,0 +1,22 @@
+version: v1
+defaultEnv: starter-template
+packages:
+- neovim
+- git
+- stow@2.4.0
+- fzf@0.55.0
+- ripgrep
+- fd
+- nodejs@22.8.0
+- pnpm@9.12.1
+- gcc@14.2.0
+- ranger@1.9.3-unstable-2023-08-23
+- go@1.23.1
+- go-task@3.38.0
+- mongosh@2.3.1
+- docker-client@27.3.0
+envVars:
+- key: AUTH_URI
+  mresRef: auth/URI
+mounts: []
+teamName: john-is-learning
